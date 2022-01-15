@@ -1,0 +1,111 @@
+
+/********************************************************************
+Portfolio 
+*********************************************************************/
+ 
+.rez-portfolio.rez-not-transition *{
+	transition:none !important;
+	-webkit-transition: none !important;
+	-moz-transition:none !important;
+	-o-transition: none !important;
+}
+
+.rez-portfolio .rd-post-list-new{
+	 visibility:hidden !important; 
+	opacity:0 !important;
+	width:100%;
+	position:absolute !important;
+ }
+.rez-portfolio .rd-post-list-main{
+	
+	
+}
+.rez-portfolio .rd-post-list-new .rd-post-list{
+	position:relative !important;
+  } 
+ .rez-portfolio:not(.macy-masonry) .rd-post-list-new .rd-post-list{
+	 	height:auto !important;
+
+ }
+ body #rd-wrapper .rez-portfolio .rd-post-list-new .rd-post-item.rez-test-hide {
+	display:none !important;
+}
+.rez-portfolio  .rd-post-list-new .rd-post-item.rez-test-show {
+	display:inline-block !important;
+ 
+}
+
+.rez-portfolio .rd-post-item.rez-has-hide{
+	display:none;
+  } 
+ .rez-portfolio .rd-post-item{
+	 opacity:1  !important;
+ } 
+.rez-portfolio  .rd-post-item.rez-has-show{
+	display:inline-block ;
+ 	 
+	
+}
+ 
+.rez-portfolio .rd-post-list-new .rez-hide-to-show{
+	transform:scale(1) !important; 
+ }
+ .rez-portfolio .rd-post-list-new .rez-show-to-hide{
+	transform:scale(1) !important; 
+ }
+ 
+.rez-portfolio.rez-animate .rd-post-list:not(.rd-post-list-new) .rez-has-hide{
+	transform:scale(0,0) ; 
+ }
+ 
+.rez-portfolio.rez-animate .rd-post-list:not(.rd-post-list-new) .rez-has-hide{
+	display:inline-block !important;
+	 }
+	
+.rd-transfrom-element .rd-post-item {
+	transform: scale(0);
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+}
+.rd-transfrom-show .rd-post-item {
+	transition: All 300ms linear;
+	-webkit-transition: All 300ms linear;
+	-moz-transition: All 300ms linear;
+	-o-transition: All 300ms linear;
+	}
+ 
+ 
+.rd-not-transition-item .rd-post-item-old {
+ 			transition: none !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition:none !important;
+		transform: scale(1) !important;
+	-webkit-transform: scale(1)!important;
+	-moz-transform: scale(1) !important;
+	-o-transform: scale(1)!important;
+	-ms-transform: scale(1)!important;
+	visibility:visible !important;
+}
+ .rd-transform-hide .rd-post-item{
+  	transition: none !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition:none !important; 
+ }
+.rez-animate .rd-post-ab{
+	position:absolute !important;
+} 
+ 
+.rez-portfolio .rez-animte{
+	pointer-events:none  !important;
+	position:absolute !important;
+}
+.rd-portfolio-single-thumb  .rd-post-module-2{
+	padding:0px !important;
+}
+.rd-portfolio-single-thumb{
+	margin:20px 0px 40px !important;
+}

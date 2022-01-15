@@ -1,0 +1,446 @@
+/*
+1 - Grid Posts
+2 - Thumb
+3 - Details
+4 - Boxed Details
+5 - Slider
+6 - Product
+7 - Testimonials
+8 - Image Effect
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	1 - Grid Posts
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rd-grid-warp {
+    border-radius: 0px;
+}
+
+.rd-grid-warp .rd-post-list {
+    position: relative;
+    height: auto;
+}
+
+.rd-post-grid-warp {
+    width: 100%;
+    float: right;
+}
+
+.rd-post-module-2 {
+    float: right;
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.rd-post-module-2 .rd-post-container {
+    width: 100%;
+    float: right;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.00);
+    height: 100%;
+    vertical-align: top;
+    border-style: solid;
+    transition: all 00ms linear;
+    -webkit-transition: all 00ms linear;
+    -moz-transition: all 00ms linear;
+    -ms-transition: all 00ms linear;
+    -o-transition: all 00ms linear;
+    border-radius: 0px;
+}
+
+.rd-post-module-2.rd-post-layout-boxed-item .rd-post-container.rd-box-padding-default {
+    padding: 20px;
+}
+
+.rd-post-module-2 .rd-post-hover .rd-post-container:hover {
+    min-height: 100% !important;
+    height: auto !important;
+    position: absolute !important;
+    right: 0px;
+    top: 0px;
+    transition: all 00ms linear;
+    -webkit-transition: all 00ms linear;
+    -moz-transition: all 00ms linear;
+    -ms-transition: all 00ms linear;
+    -o-transition: all 00ms linear;
+    min-height: 100% !important;
+    height: auto !important;
+}
+
+.rd-post-module-2 .rd-post-container:hover {
+    transition: all 00ms linear;
+    -webkit-transition: all 00ms linear;
+    -moz-transition: all 00ms linear;
+    -ms-transition: all 00ms linear;
+    -o-transition: all 00ms linear;
+}
+
+.rd-post-inner {
+    position: relative;
+    z-index: 11111111;
+    width: 100%;
+    float: right;
+    border-color: inherit !important;
+    height: 100%;
+}
+
+body #rd-wrapper .rd-post-container {
+    border-color: inherit !important;
+}
+
+.rd-post-module-2 .rd-post-warp {
+    padding: 0px;
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	2 - Thumb
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rd-post-module-2 .rd-thumb {
+    float: right;
+    border-radius: 0px;
+    position: relative;
+    width: 100%!important
+}
+
+.rd-post-module-2 .rd-thumb-warp {
+    padding-bottom: 75%;
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: block;
+    overflow: hidden
+}
+
+.rd-ratio-auto.rd-post-module-2 .rd-thumb .rd-thumb-warp img {
+    width: 100% !important;
+    position: relative !important;
+    min-width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: inherit !important;
+    right: 0px !important;
+    top: 0px !important;
+    left: 0px !important;
+    vertical-align: top;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+}
+
+.rd-ratio-auto.rd-post-module-2 .rd-thumb-container {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.rd-ratio-auto.rd-post-module-2 .rd-thumb-warp {
+    padding-bottom: 0px !important;
+}
+
+.rd-ratio40.rd-post-module-2 .rd-thumb-warp {
+    padding-bottom: 40%
+}
+
+.rd-ratio50.rd-post-module-2 .rd-thumb-warp {
+    padding-bottom: 50%
+}
+
+.rd-ratio60.rd-post-module-2 .rd-thumb-warp {
+    padding-bottom: 60%
+}
+
+.rd-ratio75.rd-post-module-2 .rd-thumb-warp {
+    padding-bottom: 75%
+}
+
+.rd-ratio100.rd-post-module-2 .rd-thumb-warp {
+    padding-bottom: 100%
+}
+
+.rd-ratio135.rd-post-module-2 .rd-thumb-warp {
+    padding-bottom: 135%
+}
+
+.rd-post-module-2 .rd-hover-post-icon {
+    right: 50% !important;
+    top: 50% !important;
+    position: absolute;
+    width: auto !important;
+    z-index: 1;
+    transform: translate(50%, -50%) !important;
+    -webkit-transform: translate(50%, -50%) !important;
+    -moz-transform: translate(50%, -50%)!important;
+    -o-transform: translate(50%, -50%)!important;
+    -ms-transform: translate(50%, -50%)!important;
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	3 - Details
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ 
+.rd-post-module-2 .rd-details {
+    width: 100%!important;
+}
+
+.rd-post-module-2 .rd-details-warp {
+    float: right;
+    width: 100% !important;
+}
+
+.rd-post-module-2 .rd-details-warp,
+.rd-post-module-2 .rd-details-warp:hover {
+    transition: all 00ms linear;
+    -webkit-transition: all 00ms linear;
+    -moz-transition: all 00ms linear;
+    -ms-transition: all 00ms linear;
+    -o-transition: all 00ms linear;
+}
+
+.rd-post-module-2 .rd-excerpt-hover {
+    visibility: hidden;
+    margin-top: -50% !important;
+    opacity: 0;
+    transition: .0s linear;
+    -webkit-transition: .0s linear;
+    max-height: 0px !important;
+    vertical-align: top;
+}
+
+.rd-post-module-2 .rd-post-container:hover .rd-excerpt-hover {
+    max-height: 200px !important;
+    overflow: hidden;
+    opacity: 1;
+    margin-top: 0px !important;
+    transition:   300ms linear;
+    -webkit-transition:   300ms linear;
+    -moz-transition:   300ms linear;
+    -ms-transition:   300ms linear;
+    -o-transition:   300ms linear;
+    visibility: visible;
+}
+
+.rd-between-0px .rd-post-module-2 .rd-box-layout-none .rd-excerpt-hover,
+.rd-between-2px .rd-post-module-2 .rd-box-layout-none .rd-excerpt-hover,
+.rd-between-5px .rd-post-module-2 .rd-box-layout-none .rd-excerpt-hover,
+.rd-between-10px .rd-post-module-2 .rd-box-layout-none .rd-excerpt-hover,
+.rd-between-20px .rd-post-module-2 .rd-box-layout-none .rd-excerpt-hover,
+.rd-between-30px .rd-post-module-2 .rd-box-layout-none .rd-excerpt-hover {
+    opacity: 1 !important;
+     transition:300ms linear !important;
+    -webkit-transition:300ms linear !important;
+    -moz-transition:300ms linear !important;
+    -ms-transition:300ms linear !important;
+    -o-transition:300ms linear !important;
+    visibility: visible !important;
+    margin-top: 0px !important;
+    max-height: none !important;
+    height: auto !important;
+}
+
+@media (max-width: 1199px) {
+    .rd-between-40px .rd-post-module-2 .rd-box-layout-none .rd-excerpt-hover {
+        opacity: 1 !important;
+		 transition:   300ms linear !important;
+		-webkit-transition: 300ms linear !important;
+		-moz-transition:300ms linear !important;
+		-ms-transition:300ms linear !important;
+		-o-transition:300ms linear !important;
+        visibility: visible !important;
+        margin-top: 0px !important;
+        max-height: none !important;
+        height: auto !important;
+    }
+}
+
+.rd-post-module-2.rd-post-layout-boxed-details .rd-post-warp,
+.rd-post-module-2.rd-post-layout-boxed-details-2 .rd-post-warp {
+    display: grid;
+    grid-template-rows: min-content;
+}
+
+.rd-post-module-2.rd-post-layout-boxed-details .rd-post-container,
+.rd-post-module-2.rd-post-layout-boxed-details-2 .rd-post-container {
+    display: grid;
+}
+
+.rd-post-module-2.rd-post-layout-boxed-details-2 .rd-details-warp {
+    margin: -40px 20px 0 00px !important;
+    z-index: 1;
+    position: relative;
+    width: calc(100% - 40px) !important;
+}
+
+.macy-masonry .rd-post-module-2,
+.macy-masonry .rd-post-item {
+    height: auto !important;
+}
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	5 - Slider
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rd-grid-warp.rd-carousel .lSSlideWrapper {
+    display: inline-grid;
+    vertical-align: top;
+    width: 100% !important;
+}
+
+.rd-grid-warp.rd-carousel .lSSlideWrapper .rd-post-list {
+    display: inline-flex !important;
+}
+
+.rd-grid-warp.rd-carousel .rd-post-item {
+    height: 100%;
+}
+
+.rd-grid-warp.rd-carousel .rd-post-list {
+    overflow: visible !important;
+}
+
+.rd-grid-warp.rd-carousel .lSSlideWrapper {
+    overflow: visible !important;
+}
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	6 -  Product
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ 
+
+.rd-post-module-2 .rd-cart-button-warp {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    pointer-events: none;
+}
+
+.rd-post-module-2 .rd-cart-button {
+    width: 3.2em;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    left: 10px;
+    top: 10px
+}
+
+.rd-post-module-2 .rd-cart-item {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    pointer-events: all;
+}
+
+.rd-post-module-2 .rd-cart-item {
+    left: -100%;
+    position: relative;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+.rd-post-module-2 .rd-cart-item a::before {
+    border-width: 0px !important;
+}
+
+.rd-post-module-2 .rd-post-inner:hover .rd-cart-item {
+    left: 0px;
+}
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	7 - Testimonials
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ 
+.rd-testimonials.rd-post-module-2 .rd-testimonial-author-image {
+    float: none;
+    margin: auto;
+    vertical-align: top;
+}
+
+.rd-testimonials.rd-post-module-2 .rd-testimonial-author-image {
+    width: 100px !important;
+}
+
+.rd-testimonials.rd-post-module-2 .rd-150-warp .rd-testimonial-author-image,
+.rd-testimonials.rd-post-module-2 .rd-200-warp .rd-testimonial-author-image {
+    width: 90px !important;
+}
+
+.rd-testimonials.rd-post-module-2 .rd-250-warp .rd-testimonial-author-image,
+.rd-testimonials.rd-post-module-2 .rd-300-warp .rd-testimonial-author-image {
+    width: 100px !important;
+}
+
+.rd-testimonials.rd-post-module-2 .rd-400-warp .rd-testimonial-author-image,
+.rd-testimonials.rd-post-module-2 .rd-500-warp .rd-testimonial-author-image {
+    width: 110px !important;
+}
+
+.rd-testimonials.rd-post-module-2 .rd-600-warp .rd-testimonial-author-image,
+.rd-testimonials.rd-post-module-2 .rd-800-warp .rd-testimonial-author-image {
+    width: 120px !important;
+}
+
+.rd-testimonials.rd-post-module-2 .rd-1000-warp .rd-testimonial-author-image,
+.rd-testimonials.rd-post-module-2 .rd-1200-warp .rd-testimonial-author-image {
+    width: 130px !important;
+}
+
+.rd-testimonials.rd-post-module-2 .rd-1400-warp .rd-testimonial-author-image,
+.rd-testimonials.rd-post-module-2 .rd-1920-warp .rd-testimonial-author-image {
+    width: 140px !important;
+}
+
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	8 - Image Effect
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+body .rd-post-module-2 .rd-caption-effect-padding .rd-250-item figcaption,
+body .rd-post-module-2 .rd-caption-effect-padding .rd-200-item figcaption,
+body .rd-post-module-2 .rd-caption-effect-padding .rd-150-item figcaption {
+    padding: 0px !important;
+    border-color: transparent !important;
+}
+
+body .rd-post-module-2 .rd-caption-effect-padding .rd-250-item figcaption:after,
+body .rd-post-module-2 .rd-caption-effect-padding .rd-200-item figcaption:after,
+body .rd-post-module-2 .rd-caption-effect-padding .rd-150-item figcaption:after {
+    display: none !important;
+}
+
+body .rd-post-module-2 .rd-caption-effect-padding .rd-250-item figcaption:before,
+body .rd-post-module-2 .rd-caption-effect-padding .rd-200-item figcaption:before,
+body .rd-post-module-2 .rd-caption-effect-padding .rd-150-item figcaption:before {
+    display: none !important;
+}

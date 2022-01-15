@@ -1,0 +1,396 @@
+/*
+1 - Widget General
+2 - Widget Social
+3 - Widget Login
+4 - Widget Search
+5 - Widget Ads
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	1 - Widget General
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.widget {
+	line-height: 1.8em;
+	font-size: 13px;
+	padding:20px;
+	float:right;
+	width:100%;
+	text-align:right;
+	visibility:hidden;
+}
+.widget.rd-show-visibility{
+	visibility:visible !important;
+}
+.widget-warp {
+	float: right;
+ 	border-radius: 0px;
+	width: 100%;
+ }
+ 
+ .rd-widget-boxed{
+	 border-width:1px;
+	 border-style:solid;
+	 border-color: inherit;
+
+ }
+body #rd-wrapper .rd-sidebar-layout-none .rd-widget-boxed{
+	 padding:0px !important;
+	 background:none !important;
+	 border-width:0px !important;
+ }
+ 
+.widget .widget-container {
+	float: right;
+	width:100%;
+}
+.widget .screen-reader-text {
+	display: none
+}
+.widget a {
+	font-size: 15px;
+	line-height: 1.8em
+}
+.widget:not(.rd-widget) ul li:before {
+	font-family: dashicons;
+	content: "\f341";
+	font-style: normal;
+	vertical-align: top;
+	font-size: 12px;
+	margin-left: 3px;
+	margin-top: 2px;
+	float: right;
+}
+.widget.widget_rss .rd-title-box h4 a:not(.rsswidget) {
+	display: none;
+}
+.widget_rss span {
+	padding: 0px !important;
+}
+.widget_rss a {
+	background: none !important;
+}
+.widget.widget_rss .rd-title-box h4 a:nth-child(1) {
+	padding: 5px 5px 5px 0px;
+	font-size: inherit !important;
+}
+.widget.widget_rss .rd-title-box h4 a:nth-child(2) {
+	padding: 5px 0px 5px 0px;
+	font-size: inherit !important;
+}
+.widget select {
+	width: 100%
+}
+.widget #wp-calendar {
+	width: 100%;
+	margin: 0
+}
+.widget #wp-calendar caption {
+	text-align: center;
+	padding: 5px 10px
+}
+.widget .searchform input#s {
+	width: 100%
+}
+.widget .searchform #searchsubmit {
+	cursor: pointer
+}
+ 
+ 
+.widget .rd-title-box{
+	margin-bottom:20px;
+}
+.rd-widget .widget-container {
+	width: 100%;
+	float: right
+}
+.widget li {
+	list-style: none;
+	color:inherit;
+
+}
+ 
+.widget ul {
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.widget ul ul,
+.widget ol ol {
+	margin: 0 0 0 15px
+}
+.widget ul li {
+	padding: 5px 0
+}
+.widget ul li ul li {
+	padding: 5px 0 5px 0px
+}
+.rd-widget ul li {
+	padding: 0
+}
+.rd_widget ul li {
+	padding: 0
+}
+.rd-none-title .rd-title-box {
+	display: none
+}
+.widget_text img {
+	max-width: 100%;
+	height: auto
+}
+.widget.widget_nav_menu li a::before {
+	content: inherit;
+	display: none;
+}
+.widget p {
+	line-height: 1.7em;
+	margin: 0 0 1.6em;
+}
+.widget_text .wp-caption-text {
+	padding: 5px
+}
+.rd-widget-tags .rd-widget-content {
+	width: 100%;
+	float: right;
+	padding-top: 0
+}
+.rd-tags-box {
+	width: 100%;
+	float: right;
+}
+.rd-tags-box a,
+.tagcloud A {
+	font-size: 13px!important;
+	margin: 3px;
+	color:inherit !important;
+ 
+	padding: 3px 7px!important;
+	background: rgba(118, 138, 138, 0.10);
+	float: right
+}
+.rd-text-html {
+	width: 100%;
+	float: right;
+	padding: 20px
+}
+.rd-widget-text-link {
+	float: right;
+	display: block
+}
+.rd-widget-text-link:first-child {
+	margin-top: 20px
+}
+.rd-widget-link:last-child {
+	margin-bottom: 20px
+}
+.widget_tag_cloud .rd-title-box {
+	margin-bottom: 10px !important;
+}
+.rd-text-link {
+	width: 100%;
+	padding: 15px;
+	background: rgba(150, 150, 150, 0.15);
+	border-width: 1px;
+	border-style: solid;
+}
+.rd-layout_6 .rd-text-link {
+	border-width: 3px;
+}
+.rd-text-link a {
+	font-size: 18px;
+	font-weight: 700
+}
+.rd-widget-author .rd-post-module-2 .rd-thumb {
+	position: relative;
+	width: 150px !important;
+	text-align: center;
+	margin: auto;
+	display: block;
+	margin-top: 20px;
+	float: none;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.rd-widget-author .rd-meta {
+	margin: 15px 0 0px !important;
+	line-height: inherit !important;
+}
+.rd-widget-author .rd-meta li {
+	font-size: 0px !important;
+	max-height: none !important;
+}
+.rd-widget-author li a::before {
+	font-family: "Font Awesome 5 Brands","Font Awesome 5 Free",'FontAwesome';
+	font-size: 1.5em;
+}  
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	2 - Widget Social
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rd-widget-social {
+	width: 100%;
+	float: right;
+}
+.rd-widget-social .rd-social {
+	float: right;
+	width: 100%;
+	margin: 0!important;
+	background: none !important;
+}
+.rd-widget-social .rd-social-icons ul {
+	width: 100%;
+	margin:0px !important;
+	float: right;
+	padding: 0px;
+}
+body #rd-wrapper .rd-widget-social .rd-social-icons a{
+	width:100% !important; 
+}
+body #rd-wrapper .rd-widget-social .rd-social-icons.rd-social-style-1 a::before{
+	font-size:.7em !important;
+}
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	3 - Widget Login
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rd-widget-login-singin {
+	padding-bottom: 20px;
+	float: right
+}
+.rd-widget-login-singin label {
+	font-size: 14px;
+	text-align: right;
+	list-style: outside none none;
+	float: right;
+	padding: 5px 0
+}
+.rd-widget-login-singin #log,
+.rd-widget-login-singin #pwd {
+	background: rgba(150, 150, 150, 0.05);
+
+	height: 40px;
+	font-size: 14px;
+	box-shadow: 0 0 0 1px rgba(118, 128, 138, 0.2) inset;
+	border: none;
+	margin: auto;
+	width: 100%;
+	padding: 0 15px
+}
+.rd-widget-login-singin #submit {
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+	border: medium none;
+	font-size: 17px
+}
+.rd-widget-login-singin .rd-rememberme {
+	font-size: 14px;
+	text-align: right;
+	list-style: outside none none;
+	float: right;
+	margin-top: 10px
+}
+.rd-login-links {
+	float: right;
+	width: 100%
+}
+.rd-login-links li {
+	padding: 0;
+	display: inline-block;
+	margin-left: 10px
+}
+.rd-widget-login-user {
+	width: 100%;
+	float: right
+}
+.rd-author-avatar {
+	float: right;
+	width: 30%;
+	padding-top: 0
+}
+.rd-author-avatar img {
+	border: solid 1px #fff;
+	border-radius: 0;
+	width: 100%;
+	border-radius: 50%;
+	height: auto
+}
+.rd-panel {
+	float: right;
+	width: 70%;
+	padding-right: 15px
+}
+.rd-panel a {
+	font-weight: 400
+}
+.rd-widget-login-user li {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 25px
+}
+.rd-login-user h3 {
+	padding: 0 20px;
+	width: 250px;
+	float: right;
+	font-size: 14px
+}
+.rd-login-user ul {
+	padding: 0 20px;
+	font-size: 12px;
+	float: right
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	4 - Widget Search
+																		
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.widget_search .rd-searchfield,
+.widget_search .widget_product_search
+ {
+	float:right;
+}  
+.rd-searchfield-full-width{
+	width:100% !important;
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	5 - Widget Ads
+																		
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rd-single .rd-widget-ads {
+	padding: 5px 0
+}
+.rd-ads {
+	text-align: center;
+	float: right;
+	display: inline-block;
+	width: 100%
+}
+.rd-ads img {
+	display: inline-block;
+	float: right;
+	top: 0;
+	right: 50%;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	transform: translate(50%, 0);
+	-webkit-transform: translate(50%, 0);
+	-moz-transform: translate(50%, 0);
+	-o-transform: translate(50%, 0);
+	font-size: 0;
+	-ms-transform: translate(50%, 0)
+}
+.rd-resize.rd-ads img {
+	width: 100%;
+	float: right
+}

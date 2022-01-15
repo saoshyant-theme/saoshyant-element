@@ -1,0 +1,502 @@
+/*
+1 - Featured Posts
+2 - Thumb
+2 - Details
+4 - Responsive
+5 - Caption Effect
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	1 - Featured Posts
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rd-featured-warp {
+    margin: 0px;
+    width: 100%;
+    float: left;
+}
+
+.rd-featured-warp .rd-title-box {
+    padding: 00px;
+    width: 100%;
+}
+
+.rd-post-module-3 {
+    float: right;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.rd-ratio-auto.rd-post-module-3 .rd-post-container {
+    position: relative;
+    height: auto;
+    float: right;
+}
+
+.rd-post-module-3 .rd-post-container {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.rd-post-module-3 .rd-post-warp {
+    border-radius: 0px;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    height: 100%;
+    position: relative;
+    padding: 0!important
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	2 - Thumb
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rd-post-module-3 .rd-thumb-warp {
+    height: 100%;
+}
+
+.rd-post-module-3 .rd-thumb {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%
+}
+
+.rd-ratio-auto.rd-post-module-3 {
+    padding-bottom: 0px !important;
+    height: auto !important;
+}
+
+.rd-ratio-auto.rd-post-module-3 .rd-thumb {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.rd-ratio40.rd-post-module-3 {
+    padding-bottom: 40%
+}
+
+.rd-ratio50.rd-post-module-3 {
+    padding-bottom: 50%
+}
+
+.rd-ratio60.rd-post-module-3 {
+    padding-bottom: 60%
+}
+
+.rd-ratio75.rd-post-module-3 {
+    padding-bottom: 75%
+}
+
+.rd-ratio100.rd-post-module-3 {
+    padding-bottom: 100%
+}
+
+.rd-ratio135.rd-post-module-3 {
+    padding-bottom: 135%
+}
+
+.rd-ratio1-2x .rd-ratio40.rd-post-module-3 {
+    padding-bottom: 20%
+}
+
+.rd-ratio1-2x .rd-ratio50.rd-post-module-3 {
+    padding-bottom: 25%
+}
+
+.rd-ratio1-2x .rd-ratio60.rd-post-module-3 {
+    padding-bottom: 30%
+}
+
+.rd-ratio1-2x .rd-ratio75.rd-post-module-3 {
+    padding-bottom: 37.5%
+}
+
+.rd-ratio1-2x .rd-ratio100.rd-post-module-3 {
+    padding-bottom: 50%
+}
+
+.rd-ratio1-2x .rd-ratio135.rd-post-module-3 {
+    padding-bottom: 67.5%
+}
+
+.rd-ratio2x .rd-ratio40.rd-post-module-3 {
+    padding-bottom: 80%
+}
+
+.rd-ratio2x .rd-ratio50.rd-post-module-3 {
+    padding-bottom: 100%
+}
+
+.rd-ratio2x .rd-ratio60.rd-post-module-3 {
+    padding-bottom: 120%
+}
+
+.rd-ratio2x .rd-ratio75.rd-post-module-3 {
+    padding-bottom: 150%
+}
+
+.rd-ratio2x .rd-ratio100.rd-post-module-3 {
+    padding-bottom: 200%
+}
+
+.rd-ratio2x .rd-ratio135.rd-post-module-3 {
+    padding-bottom: 270%
+}
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	2 - Details
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rd-post-module-3 .rd-details,
+.rd-post-module-3 .rd-details-warp {
+    z-index: 1;
+    position: relative;
+    bottom: auto;
+    float: right;
+    pointer-events: none;
+    width: 100%
+}
+
+.rd-caption-middle.rd-post-module-3 .rd-details-warp {
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    bottom: auto;
+    height: auto;
+    transform: translate(50%, -50%)!important;
+    -webkit-transform: translate(50%, -50%)!important;
+    -moz-transform: translate(50%, -50%)!important;
+    -o-transform: translate(50%, -50%)!important;
+    -ms-transform: translate(50%, -50%)!important;
+    position: absolute;
+    z-index: 1
+}
+
+
+.rd-caption-3-layout-middle.rd-post-module-3 .rd-hover-post-icon,
+.rd-caption-3-layout-middle-rand.rd-post-module-3 .rd-hover-post-icon {
+    height: 0px !important;
+    opacity: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    transform: translateY(-64px) !important;
+    margin-bottom: 0px
+}
+
+.rd-caption-3-layout-bottom.rd-post-module-3 .rd-hover-post-icon,
+.rd-caption-3-layout-bottom-rand.rd-post-module-3 .rd-hover-post-icon,
+.rd-caption-3-layout-gradient-bottom.rd-post-module-3 .rd-hover-post-icon {
+    height: 0px !important;
+    opacity: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    transform: translateY(-42px) !important;
+    margin-bottom: 0px
+}
+
+.rd-caption-3-layout-middle.rd-post-module-3 .rd-hover-post-icon a,
+.rd-caption-3-layout-middle-rand.rd-post-module-3 .rd-hover-post-icon a,
+.rd-caption-3-layout-bottom.rd-post-module-3 .rd-hover-post-icon a,
+.rd-caption-3-layout-gradient-bottom.rd-post-module-3 .rd-hover-post-icon a {
+    transform: translateX(00px) !important;
+}
+
+.rd-caption-3-layout-middle.rd-post-module-3:hover .rd-hover-post-icon,
+.rd-caption-3-layout-bottom.rd-post-module-3:hover .rd-hover-post-icon,
+.rd-caption-3-layout-middle-rand.rd-post-module-3:hover .rd-hover-post-icon,
+.rd-caption-3-layout-bottom-rand.rd-post-module-3:hover .rd-hover-post-icon,
+.rd-caption-3-layout-gradient-bottom.rd-post-module-3:hover .rd-hover-post-icon {
+    position: relative !important;
+    margin-bottom: 15px;
+    display: inline-block !important;
+    opacity: 1 !important;
+    height: 42px !important;
+    transform: translateY(0px) !important;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.rd-caption-3-layout-middle.rd-post-module-3 figcaption,
+.rd-caption-3-layout-middle-rand.rd-post-module-3 figcaption,
+.rd-caption-3-layout-bottom-rand.rd-post-module-3 figcaption,
+.rd-caption-3-layout-gradient-bottom.rd-post-module-3 figcaption {
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+    top: 0 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.rd-caption-3-layout-middle.rd-post-module-3 figcaption div.rd-details-warp,
+.rd-caption-3-layout-hover-middle.rd-post-module-3 figcaption div.rd-details-warp,
+.rd-caption-3-layout-middle-rand.rd-post-module-3 figcaption div.rd-details-warp {
+    top: 50% !important;
+    right: 50% !important;
+    transform: translate(50%, -50%)!important;
+    -webkit-transform: translate(50%, -50%)!important;
+    -moz-transform: translate(50%, -50%)!important;
+    -o-transform: translate(50%, -50%)!important;
+    -ms-transform: translate(50%, -50%)!important;
+}
+ 
+.rd-caption-3-layout-bottom.rd-post-module-3 figcaption {
+    position: absolute !important;
+    width: 100% !important;
+    top: auto !important;
+    bottom: 0px;
+	right:0px;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.rd-caption-3-layout-bottom.rd-post-module-3 div.rd-details-warp {
+    top: auto !important;
+    bottom: 0px !important;
+    right: 0px !important;
+    position: relative !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+    transition: all 300ms linear;
+    -webkit-transition: All 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+ 
+.rd-caption-3-layout-gradient-bottom.rd-post-module-3 div.rd-details-warp,
+.rd-caption-3-layout-bottom-rand.rd-post-module-3 div.rd-details-warp {
+    top: auto !important;
+    bottom: 0px !important;
+    right: 0px !important;
+    transform: none !important;
+    position: absolute !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+    transition: all 300ms linear;
+    -webkit-transition: All 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+.rd-caption-3-layout-hover-top.rd-post-module-3 figcaption {
+    bottom: auto !important;
+	right:00px;
+}
+ 
+.rd-caption-3-layout-hover-top.rd-post-module-3 div.rd-details-warp {
+    top: auto !important;
+    bottom: 0px !important;
+    right: 0px !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+    transition: all 300ms linear;
+    -webkit-transition: All 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+.rd-caption-3-layout-hover-top.rd-post-module-3 figcaption {
+    visibility: hidden;
+}
+
+.rd-caption-3-layout-hover-top.rd-post-module-3:hover figcaption {
+    visibility: visible;
+}
+
+
+.rd-caption-3-layout-hover-middle.rd-post-module-3 figcaption {
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+    top: 0 !important;
+}
+
+.rd-caption-3-layout-hover-middle.rd-post-module-3 div.rd-details-warp {
+    top: auto !important;
+    bottom: auto !important;
+    right: auto !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+	
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+.rd-caption-3-layout-hover-bottom.rd-post-module-3 figcaption {
+    bottom: 0px !important;
+    top: auto !important;
+	right:0px;
+}
+
+.rd-caption-3-layout-hover-bottom.rd-post-module-3 div.rd-details-warp {
+    top: auto !important;
+    bottom: 0px !important;
+    right: 0px !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+.rd-caption-3-layout-hide.rd-post-module-3 figcaption {
+    display: none !important;
+}
+
+.rd-post-module-3 figcaption {
+    visibility: hidden;
+}
+
+.rd-post-module-3:hover figcaption {
+    visibility: visible;
+}
+
+.rd-post.rd-post-module-3 .rd-meta .rd-author a {
+    color: #ffffff;
+}
+
+.rd-post-module-3 .rd-excerpt-hover {
+    visibility: hidden;
+    margin-top: 0% !important;
+    opacity: 0;
+	transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+	
+    max-height: 0px !important;
+    vertical-align: top;
+}
+
+.rd-post-module-3 .rd-post-container:hover .rd-excerpt-hover {
+    max-height: 200px !important;
+    overflow: hidden;
+    opacity: 1;
+    margin-top: 0px !important;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    visibility: visible;
+}
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	4 - Responsive
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 992px) {
+    .rd-featured-featured_13 .rd_column_3_4.rd-post-item-group {
+        float: left
+    }
+}
+
+.rd-ratio-auto.rd-post-module-3 .rd-150-item .rd-font-medium,
+.rd-ratio60.rd-post-module-3 .rd-150-item .rd-font-medium,
+.rd-ratio75.rd-post-module-3 .rd-150-item .rd-font-medium,
+.rd-ratio100.rd-post-module-3 .rd-150-item .rd-font-medium,
+.rd-ratio135.rd-post-module-3 .rd-150-item .rd-font-medium,
+.rd-ratio-auto.rd-post-module-3 .rd-200-item .rd-font-medium,
+.rd-ratio60.rd-post-module-3 .rd-200-item .rd-font-medium,
+.rd-ratio75.rd-post-module-3 .rd-200-item .rd-font-medium,
+.rd-ratio100.rd-post-module-3 .rd-200-item .rd-font-medium,
+.rd-ratio135.rd-post-module-3 .rd-200-item .rd-font-medium,
+.rd-ratio-auto.rd-post-module-3 .rd-250-item .rd-font-medium,
+.rd-ratio60.rd-post-module-3 .rd-250-item .rd-font-medium,
+.rd-ratio75.rd-post-module-3 .rd-250-item .rd-font-medium,
+.rd-ratio100.rd-post-module-3 .rd-250-item .rd-excerpt-warp,
+.rd-ratio135.rd-post-module-3 .rd-250-item .rd-excerpt-warp,
+.rd-ratio-auto.rd-post-module-3 .rd-300-item .rd-excerpt-warp,
+.rd-ratio60.rd-post-module-3 .rd-300-item .rd-excerpt-warp,
+.rd-ratio75.rd-post-module-3 .rd-300-item .rd-excerpt-warp,
+.rd-ratio100.rd-post-module-3 .rd-300-item .rd-excerpt-warp,
+.rd-ratio60.rd-post-module-3 .rd-400-item .rd-excerpt-warp {
+    display: none
+}
+
+.rd-ratio2x .rd-ratio75.rd-post-module-3 .rd-300-item .rd-font-medium,
+.rd-ratio2x .rd-ratio100.rd-post-module-3 .rd-300-item .rd-font-medium,
+.rd-ratio2x .rd-ratio60.rd-post-module-3 .rd-400-item .rd-font-medium,
+.rd-ratio2x .rd-ratio75.rd-post-module-3 .rd-400-item .rd-font-medium {
+    display: inline-block
+}
+
+.rd-ratio60.rd-post-module-3 .rd-150-item .rd-meta-warp,
+.rd-ratio75.rd-post-module-3 .rd-150-item .rd-meta-warp,
+.rd-ratio100.rd-post-module-3 .rd-150-item .rd-meta-warp,
+.rd-ratio135.rd-post-module-3 .rd-150-item .rd-meta-warp,
+.rd-ratio60.rd-post-module-3 .rd-200-item .rd-meta-warp,
+.rd-ratio75.rd-post-module-3 .rd-200-item .rd-meta-warp,
+.rd-ratio100.rd-post-module-3 .rd-200-item .rd-meta-warp,
+.rd-ratio135.rd-post-module-3 .rd-200-item .rd-meta-warp {
+    display: none!important
+}
+
+.rd-post-module-3 .rd-featured-image-warp.rd-250-item,
+.rd-post-module-3 .rd-featured-image-warp.rd-200-item,
+.rd-post-module-3 .rd-featured-image-warp.rd-150-item {
+    display: none !important;
+}
+
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	5 - Caption Effect
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+body .rd-post-module-3 .rd-caption-effect-padding.rd-250-post figcaption,
+body .rd-post-module-3 .rd-caption-effect-padding.rd-200-post figcaption,
+body .rd-post-module-3 .rd-caption-effect-padding.rd-150-post figcaption {
+    padding: 0px !important;
+    border-color: transparent !important;
+}
+
+body .rd-post-module-3 .rd-caption-effect-padding.rd-250-post figcaption:after,
+body .rd-post-module-3 .rd-caption-effect-padding.rd-200-post figcaption:after,
+body .rd-post-module-3 .rd-caption-effect-padding.rd-150-post figcaption:after {
+    display: none !important;
+}
+
+body .rd-post-module-3 .rd-caption-effect-padding.rd-250-post figcaption:before,
+body .rd-post-module-3 .rd-caption-effect-padding.rd-200-post figcaption:before,
+body .rd-post-module-3 .rd-caption-effect-padding.rd-150-post figcaption:before {
+    display: none !important;
+}

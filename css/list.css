@@ -1,0 +1,433 @@
+/*
+1 - List Posts
+2 - Thumb
+3 - Details
+4 - Slider
+5 - Product
+6 - Testimonials
+7 - Image Effect
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	1 - List Posts
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rd-list-warp {
+    width: 100%;
+    float: right;
+    border-radius: 0;
+}
+
+.rd-list-warp .rd-title-box {
+    width: 100%;
+}
+
+.rd-post-list {
+    float: right;
+    width: 100%;
+    position: relative;
+}
+
+.rd-post-module-1 {
+    width: 100%;
+    float: right;
+    padding: 10px;
+    height: 100%;
+    position: relative;
+}
+
+.rd-post-module-1 .rd-post-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: right;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.rd-post-module-1 .rd-post-warp {
+    float: right;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    position: relative;
+    display: grid;
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	2 - Thumb
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body .rd-post-module-1:not(.has-post-thumbnail) .rd-post-warp {
+    grid-template-columns: 100%!important;
+}
+
+.rd-post-module-1.rd-image-width-10 .rd-post-warp {
+    grid-template-columns: 10% 90% !important;
+}
+
+.rd-post-module-1.rd-image-width-15 .rd-post-warp {
+    grid-template-columns: 15% 85% !important;
+}
+
+.rd-post-module-1.rd-image-width-20 .rd-post-warp {
+    grid-template-columns: 20% 80% !important;
+}
+
+.rd-post-module-1.rd-image-width-25 .rd-post-warp {
+    grid-template-columns: 25% 75% !important;
+}
+
+.rd-post-module-1.rd-image-width-30 .rd-post-warp {
+    grid-template-columns: 30% 70% !important;
+}
+
+.rd-post-module-1.rd-image-width-35 .rd-post-warp {
+    grid-template-columns: 35% 65% !important;
+}
+
+.rd-post-module-1.rd-image-width-40 .rd-post-warp {
+    grid-template-columns: 40% 60% !important;
+}
+
+.rd-post-module-1.rd-image-width-45 .rd-post-warp {
+    grid-template-columns: 45% 55% !important;
+}
+
+.rd-post-module-1.rd-image-width-50 .rd-post-warp {
+    grid-template-columns: 50% 50% !important;
+}
+
+.rd-post-module-1.rd-image-width-55 .rd-post-warp {
+    grid-template-columns: 55% 45% !important;
+}
+
+.rd-post-module-1.rd-image-width-60 .rd-post-warp {
+    grid-template-columns: 60% 40% !important;
+}
+
+.rd-post-module-1.rd-image-width-65 .rd-post-warp {
+    grid-template-columns: 65% 35% !important;
+}
+
+.rd-post-module-1.rd-image-width-70 .rd-post-warp {
+    grid-template-columns: 70% 30% !important;
+}
+
+
+.rd-post-module-1 .rd-thumb-item {
+    float: right;
+}
+
+.rd-post-module-1 .rd-thumb {
+    float: right;
+    position: relative;
+    width: 100%
+}
+
+.rd-ratio-auto.rd-post-module-1 .rd-thumb .rd-thumb-warp img {
+    width: 100% !important;
+    position: relative !important;
+    min-width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: inherit !important;
+    right: 0px !important;
+    top: 0px !important;
+    left: 0px !important;
+    vertical-align: top;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+}
+
+.rd-ratio-auto.rd-post-module-1 .rd-thumb-container {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.rd-ratio40.rd-post-module-1 .rd-thumb-warp {
+    padding-bottom: 40%
+}
+
+.rd-ratio50.rd-post-module-1 .rd-thumb-warp {
+    padding-bottom: 50%
+}
+
+.rd-ratio60.rd-post-module-1 .rd-thumb-warp {
+    padding-bottom: 60%
+}
+
+.rd-ratio75.rd-post-module-1 .rd-thumb-warp {
+    padding-bottom: 75%
+}
+
+.rd-ratio100.rd-post-module-1 .rd-thumb-warp {
+    padding-bottom: 100%
+}
+
+.rd-ratio135.rd-post-module-1 .rd-thumb-warp {
+    padding-bottom: 135%
+}
+
+.rd-post-module-1 .rd-hover-post-icon {
+    right: 50% !important;
+    top: 50% !important;
+    position: absolute;
+    width: auto !important;
+    z-index: 1;
+    transform: translate(50%, -50%) !important;
+    -webkit-transform: translate(50%, -50%) !important;
+    -moz-transform: translate(50%, -50%)!important;
+    -o-transform: translate(50%, -50%)!important;
+    -ms-transform: translate(50%, -50%)!important;
+}
+
+
+.rd-post-module-1.rd-image-alignment-left .rd-post-warp {
+    direction: ltr;
+}
+
+.rd-post-module-1.rd-image-alignment-left .rd-thumb-item {
+    float: right;
+    direction: rtl;
+    width: 100%;
+}
+
+.rd-post-module-1.rd-image-alignment-left .rd-details-warp {
+    direction: rtl;
+    float: right;
+    width: 100%;
+}
+
+.rd-image-vertical-middle .rd-thumb-item {
+    display: inline-block;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.rd-image-vertical-middle .rd-thumb {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+}
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	3 - Details
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rd-post-module-1 .rd-details-warp {
+    width: 100%;
+}
+
+.rd-post-module-1 .rd-details-warp,
+.rd-post-module-1 .rd-details-warp:hover {
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+}
+
+.rd-post-module-1 .rd-details {
+    margin-top: 0;
+    transition: 300ms linear;
+    -webkit-transition: 300ms linear;
+    -moz-transition: 300ms linear;
+    -o-transition: 300ms linear;
+    width: 100%;
+}
+
+.rd-details-vertical-middle .rd-details-warp {
+    height: 100%;
+    position: relative;
+}
+
+.rd-details-vertical-middle .rd-details {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+}
+
+body .rd-post-module-1:not(.has-post-thumbnail) .rd-details {
+    padding: 0!important
+}
+
+@media (max-width: 1199px) {
+    .rd-ratio60 .rd-post-module-1 .rd-400-item .rd-excerpt,
+    .rd-ratio60 .rd-post-module-1 .rd-300-item .rd-excerpt,
+    .rd-post-module-1 .rd-250-item .rd-excerpt,
+    .rd-post-module-1 .rd-200-item .rd-excerpt,
+    .rd-post-module-1 .rd-150-item .rd-excerpt,
+    .rd-ratio60 .rd-post-module-1 .rd-400-item .rd-readmore,
+    .rd-ratio60 .rd-post-module-1 .rd-300-item .rd-readmore,
+    .rd-post-module-1 .rd-250-item .rd-readmore,
+    .rd-post-module-1 .rd-200-item .rd-readmore,
+    .rd-post-module-1 .rd-150-item .rd-readmore {
+        display: none!important
+    }
+    body .rd-list-warp .rd-post-module-1.rd-400-post .rd-post-warp,
+    body .rd-list-warp .rd-post-module-1.rd-300-post .rd-post-warp,
+    body .rd-list-warp .rd-post-module-1.rd-250-post .rd-post-warp,
+    body .rd-list-warp .rd-post-module-1.rd-200-post .rd-post-warp,
+    body .rd-list-warp .rd-post-module-1.rd-150-post .rd-post-warp {
+        grid-template-columns: 35% 65%;
+    }
+}
+
+
+
+
+.rd-post-module-1.rd-post-layout-boxed-details-2 .rd-details-warp {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    height: calc(100% - 40px) !important;
+    width: calc(100% + 40px);
+}
+
+.rd-post-layout-boxed-details-2.rd-post-module-1 .rd-details-warp {
+    margin-right: -40px !important;
+}
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	4 - Slider
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rd-list-warp.rd-carousel .lSSlideWrapper {
+    display: inline-grid;
+    vertical-align: top;
+    width: 100% !important;
+}
+
+.rd-list-warp.rd-carousel .lSSlideWrapper .rd-post-list {
+    display: inline-flex !important;
+}
+
+.rd-list-warp.rd-carousel .rd-post-item {
+    height: 100%;
+}
+
+.rd-list-warp.rd-carousel .rd-post-list {
+    overflow: visible !important;
+}
+
+.rd-list-warp.rd-carousel .lSSlideWrapper {
+    overflow: visible !important;
+}
+
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	5 - Product
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rd-product.rd-post-module-1 .rd-500-warp span.onsale,
+.rd-product.rd-post-module-1 .rd-400-warp span.onsale,
+.rd-product.rd-post-module-1 .rd-300-warp span.onsale,
+.rd-product.rd-post-module-1 .rd-250-warp span.onsale,
+.rd-product.rd-post-module-1 .rd-200-warp span.onsale,
+.rd-product.rd-post-module-1 .rd-150-warp span.onsale {
+    display: none !important;
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	6 - Testimonials
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rd-testimonials.rd-post-module-1 .rd-testimonial-rating {
+    width: auto !important;
+    padding-left: 10px;
+    float: right;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+}
+
+.rd-testimonials.rd-post-module-1 .rd-thumb-item {
+    margin-bottom: 0px !important;
+}
+
+.rd-testimonials.rd-post-module-1 .rd-testimonial-author-information {
+    width: auto !important;
+    float: right;
+}
+
+.rd-testimonials.rd-post-module-1.rd-not-author-image .rd-150-warp .rd-post-warp {
+    grid-template-columns: auto !important;
+}
+
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-150-warp .rd-post-warp,
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-200-warp .rd-post-warp {
+    grid-template-columns: 70px auto !important;
+}
+
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-250-warp .rd-post-warp,
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-300-warp .rd-post-warp {
+    grid-template-columns: 80px auto !important;
+}
+
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-post-warp,
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-400-warp .rd-post-warp,
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-500-warp .rd-post-warp {
+    grid-template-columns: 90px auto !important;
+}
+
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-600-warp .rd-post-warp,
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-800-warp .rd-post-warp {
+    grid-template-columns: 100px auto !important;
+}
+
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-1000-warp .rd-post-warp,
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-1200-warp .rd-post-warp {
+    grid-template-columns: 110px auto !important;
+}
+
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-1400-warp .rd-post-warp,
+.rd-testimonials.rd-post-module-1.rd-has-author-image .rd-1920-warp .rd-post-warp {
+    grid-template-columns: 120px auto !important;
+}
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	7 - Image Effect
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+body .rd-post-module-1 .rd-caption-effect-padding .rd-250-item figcaption,
+body .rd-post-module-1 .rd-caption-effect-padding .rd-200-item figcaption,
+body .rd-post-module-1 .rd-caption-effect-padding .rd-150-item figcaption {
+    padding: 0px !important;
+    border-color: transparent !important;
+}
+
+body .rd-post-module-1 .rd-caption-effect-padding .rd-250-item figcaption:after,
+body .rd-post-module-1 .rd-caption-effect-padding .rd-200-item figcaption:after,
+body .rd-post-module-1 .rd-caption-effect-padding .rd-150-item figcaption:after {
+    display: none !important;
+}
+
+body .rd-post-module-1 .rd-caption-effect-padding .rd-250-item figcaption:before,
+body .rd-post-module-1 .rd-caption-effect-padding .rd-200-item figcaption:before,
+body .rd-post-module-1 .rd-caption-effect-padding .rd-150-item figcaption:before {
+    display: none !important;
+}

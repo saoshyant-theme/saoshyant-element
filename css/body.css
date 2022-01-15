@@ -1,0 +1,386 @@
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	 	Body
+																		
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+ .sao-svg-bottom path{
+	fill:#444444  !important;
+	
+	
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+excerpt,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    margin-top: 0!important
+}
+
+a {
+    text-decoration: none;
+    color: #323334;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+hr {
+    opacity: .2
+}
+
+#submit {
+    opacity: 1;
+    color: #fff!important;
+    border: medium none;
+    padding: 4px 7px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.45em
+}
+
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    background: rgba(150, 150, 150, .05);
+    padding: 20px;
+    opacity: .8;
+    margin-bottom: 20px;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+dl {
+    padding: 0 20px;
+}
+
+p {
+    margin-bottom: 20px
+}
+
+
+/* latin-ext */
+
+body {
+    background: #fff;
+    direction: rtl;
+    font-family: "sao-iransans",IRANSans, arial, sans-serif;
+    line-height: 2.2em;
+    color: #666
+}
+
+body * {
+    border-color: inherit;
+}
+
+*:before,
+*:after {
+    border-color: inherit;
+}
+
+.woocommerce a.button,
+button {
+    font-family:inherit;
+    border: none;
+    display: inline-block;
+    padding: .7em 1.5em;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    white-space: nowrap;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+	
+}
+
+.input-text,
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="text"],
+input[type="url"],
+textarea {
+    padding: .857em 1.214em;
+    width: 100%;
+    line-height: 1.336em;
+}
+
+.rd-body-boxed .rd-wrapper-middle {
+    margin: auto;
+}
+
+.rd-wrapper-container {
+    float: right;
+    width: 100%;
+}
+
+body * {
+    box-sizing: border-box
+}
+
+body.rd-background-image {
+    background-image: none
+}
+
+.rd-background {
+    position: fixed;
+    z-index: -2;
+    width: 100%;
+    min-height: 100.1%;
+}
+
+.rd-background img {
+    min-width: 100.1%;
+    min-height: 100.1%;
+    position: absolute;
+    float: right;
+    width: auto;
+    height: auto;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    font-size: 0px;
+    -ms-transform: translate(50%, -50%);
+}
+
+.rd-header-background {
+    position: absolute;
+    z-index: -2;
+    overflow: hidden;
+    width: 100%;
+    height: 100.1%;
+}
+
+.rd-header-background img {
+    min-width: 100.1%;
+    min-height: auto;
+    min-height: 100%;
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    font-size: 0px;
+    -ms-transform: translate(50%, -50%);
+}
+
+input {
+    font-weight: 400;
+    border: 0 none;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 0 10px;
+    background: transparent;
+    font-family: "Rubik", arial, sans-serif;
+    line-height: 40px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    background: rgba(118, 128, 138, 0.05);
+}
+
+body input:hover {
+    box-shadow: 0 0 0 1px rgba(118, 128, 138, 0.3) inset
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 0px;
+    background: rgba(118, 128, 138, 0.05);
+    font-family: inherit;
+    border-width: 1px;
+    border-style: solid;
+}
+
+select {
+    padding: 0px 10px;
+    line-height: 40px;
+    font-size: 14px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    -moz-appearance: none;
+    height: 40px;
+    background-image: url('../images/select.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: left 10px center;
+    border-width: 1px;
+    border-style: solid;
+    font-family: inherit;
+    color: inherit
+}
+ br {
+    margin-bottom: 1px;
+}
+
+.rd-wrapper {
+    float: right;
+    text-align: right;
+    width: 100%;
+    overflow: hidden;
+}
+ [class^="fa-"]:before, [class*=" fa-"]:before  {   
+font-family:"Font Awesome 5 Brands","Font Awesome 5 Free",'FontAwesome'!important ; font-style: normal !important;
+ }
+.rd-wrapper-inner {
+    float: right;
+    width: 100%;
+}

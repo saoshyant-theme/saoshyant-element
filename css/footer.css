@@ -1,0 +1,290 @@
+/*
+1 - Footer
+2 - Footer Logo
+3 - Footer Social
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	1 - Footer
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rd-all-footer {
+
+    z-index: 0 !important;
+    float: right;
+    width: 100%;
+    position: relative;
+
+}
+.rd-footer-warp {
+    width: 100%;
+    overflow: hidden;
+    float: right;
+    position: relative
+}
+body #rd-wrapper .rd-footer-warp {
+	border-radius:0px !important;
+}
+ .rd-footer-warp::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+.rd-footer-warp .rd-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.rd-body-boxid .rd-footer-middle {
+    width: 1200px
+}
+
+.rd-footer-middle {
+    width: 1200px;
+    margin: auto
+}
+
+.rd-footer {
+    padding: 20px 00px 20px;
+    width: 100%;
+    overflow: hidden;
+    float: right
+}
+.rd-footer p {
+
+    color: inherit;
+
+}
+.rd-footer .rd-text .rd-excerpt {
+    font-size: 15px
+}
+
+.rd-footer .rd-title-box h4 {
+    background: none!important;
+    border-width: 0!important
+}
+
+.rd-footer-container {
+    margin: auto;
+    width: 1200px
+}
+
+.rd-footer .rd-post-background {
+    background: none !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.rd-footer h4.rd-post-background {
+    padding-top: 00px !important;
+    padding-bottom: 0px !important;
+}
+
+body .rd-footer .rd-post-container:hover {
+    box-shadow: none !important;
+}
+
+.rd-footer-content {
+    float: right;
+    padding: 00px 0;
+    width: 100%;
+}
+
+.rd-footer-bottom {
+    width: 100%;
+    padding: 0 20px;
+    float: right;
+}
+
+.rd-footer-bottom-warp {
+    float: right;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.rd-footer-bottom span {
+    width: 100%;
+    float: right;
+    text-align: center
+}
+
+@media (max-width: 1190px) {
+    .rd-footer {
+        width: 100%;
+        margin-right: 0;
+        padding: 0px;
+    }
+    .rd-footer-middle {
+        width: 100%!important
+    }
+}
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	2 - Footer Logo
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rd-footer-logo {
+    float: right;
+    line-height: 0;
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px ;
+    display: inline-block;
+    position: relative;
+}
+
+.rd-masthead .rd-footer-logo {
+    z-index: 1
+}
+
+.rd-footer-logo-left {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px
+}
+
+.rd-footer-logo-image .rd-footer-logo-warp {
+    margin: 0!important
+}
+
+.rd-footer-logo-image a {
+    line-height: 0
+}
+
+.rd-footer-logo-center {
+    float: right;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0
+}
+
+.rd-footer-logo-center .rd-footer-logo-warp {
+    transform: translate(50%, 00%);
+    top: 00%;
+    float: right;
+    right: 50%;
+    margin-bottom: 0px;
+    margin-top: 0;
+    transform: translate(50%, 00%);
+    -webkit-transform: translate(50%, 00%);
+    -moz-transform: translate(50%, 00%);
+    -o-transform: translate(50%, 00%);
+    -ms-transform: translate(50%, 0%)
+}
+
+.rd-footer-logo-warp {
+    position: relative;
+    transform: translate(0, -50%);
+    top: 50%;
+    margin-top: 0;
+    background: none!important;
+    padding: 0!important;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%)
+}
+
+.rd-footer-logo a {
+    font-size: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block
+}
+
+.rd-footer-logo-center a.rd-footer-logo-title,
+.rd-footer-logo-center a.rd-footer-logo-description {
+    text-align: center
+}
+
+a.rd-footer-logo-title {
+    font-size: 30px;
+    text-align: right;
+    line-height: 1em;
+    display: block;
+    color: #000
+}
+
+a.rd-footer-logo-description {
+    font-size: 13px;
+    line-height: 1.6em;
+    text-align: right;
+    display: block;
+    color: #000
+}
+
+.rd-footer-logo a:hover {
+    opacity: .75
+}
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	3 - Footer Social
+																		
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rd-footer-bottom .rd-social {
+    position: relative;
+    width: 100%!important;
+    right: 0!important;
+    margin: 0!important;
+    top: 0!important;
+    padding: 0!important;
+    z-index: 11111111;
+}
+
+.rd-footer-bottom .rd-social ul {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 5px 0;
+}
+
+.rd-footer-bottom .rd-social ul li {
+    float: none!important;
+    display: inline-block
+}
+
+.rd-footer-bottom .rd-social ul a::before {
+    font-size: 25px !important;
+    line-height: 25px;
+    line-height: 65px;
+}
+
+.rd-footer-bottom .rd-social ul li a:hover:before {
+    color: #ffffff !important;
+}
+
+.rd-footer-bottom .rd-social-icons {
+    margin-top: 15px;
+}
+
+.rd-footer-bottom .rd-social-icons ul li a {
+    font-size: 35px;
+    float: right;
+}
+
+.rd-footer-bottom .rd-social-icons.rd-social-style-1 a {
+    font-size: 22px !important;
+}
